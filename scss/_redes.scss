@@ -1,0 +1,51 @@
+.redes--size {
+  width: 15rem;
+  padding: 1rem;
+}
+
+.animate__animated.animate__swing {
+  -webkit-animation-iteration-count: 0;
+  animation-iteration-count: 0;
+}
+
+.animate__animated.animate__swing:hover {
+  -webkit-animation-iteration-count: 10;
+  animation-iteration-count: 10;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+
+.img--celular {
+  width: 45rem;
+  height: 55rem;
+  height: fit-content;
+}
+
+@media (max-width: 767px) {
+  .img--celular {
+    width: 35rem;
+    height: 45rem;
+    height: fit-content;
+  }
+}
+
+.bg-redes {
+  background-image: url(../images/fondo-redes.jpeg);
+  background: cover;
+}
+
+.bolso-pos {
+  position: absolute;
+  transform: translate(13rem, 22rem);
+  width: 60rem;
+  height: 60rem;
+}
+
+@media (max-width: 767px) {
+  .bolso-pos {
+    position: absolute;
+    transform: translate(10rem, 18rem);
+    width: 45rem;
+    height: 45rem;
+  }
+}
