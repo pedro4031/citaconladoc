@@ -5,13 +5,12 @@
 }
 html {
   font-size: 62.5%;
-}
-body {
-  font-family: "Montserrat", sans-serif;
-}
-
-.title {
-  text-align: center;
-  font-family: "pacifico", sans-serif;
-  font-size: 8rem;
+  body {
+    font-family: "Montserrat", sans-serif;
+    .title {
+      text-align: center;
+      font-family: "pacifico", sans-serif;
+      font-size: 8rem;
+    }
+  }
 }

@@ -3,11 +3,6 @@
   z-index: 1;
 }
 
-.card-size {
-  max-width: 335px;
-  max-height: fit-content;
-}
-
 .subtitle-sticky {
   top: 4.8rem;
 }
@@ -18,7 +13,11 @@
   }
 }
 
-.img-size {
-  max-width: 33.3rem;
-  max-height: 27.3rem;
+.card-size {
+  max-width: 335px;
+  max-height: fit-content;
+  .img-size {
+    max-width: 33.3rem;
+    max-height: 27.3rem;
+  }
 }
