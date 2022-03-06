@@ -1,5 +1,19 @@
 $colorcomerce: rgb(228, 135, 135);
 
-.bg--pink {
+.bg-pink {
   background-color: $colorcomerce;
+}
+
+$titulos: 1;
+$ancho: 290px;
+
+@for $titulos from 1 through 4 {
+  .titulo-#{$titulos} {
+    background-image: url(../images/titulo#{$titulos}.jpg);
+    background-position: center;
+    background-size: cover;
+    width: $ancho;
+    height: $ancho/1.5;
+    border: 2px solid grey;
+  }
 }

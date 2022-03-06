@@ -7,3 +7,12 @@
 .card--height {
   height: 15rem;
 }
+
+.btn-outline-pink {
+  color: $colorcomerce;
+  border-color: $colorcomerce;
+}
+
+.btn-outline-pink:hover {
+  background-color: $colorcomerce;
+}
