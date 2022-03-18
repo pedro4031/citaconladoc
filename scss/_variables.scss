@@ -17,3 +17,16 @@ $ancho: 290px;
     border: 2px solid grey;
   }
 }
+
+$redes: (
+  instagram: rgb(214, 62, 214),
+  facebook: #3a5795,
+  whatsapp: rgb(62, 233, 62),
+);
+
+@each $red, $color in $redes {
+  .icon-#{$red}:hover {
+    color: $color;
+    transform: scale(1.5, 1.5);
+  }
+}

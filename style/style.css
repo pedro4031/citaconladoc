@@ -59,6 +59,24 @@ html body .title {
   border: 2px solid grey;
 }
 
+.icon-instagram:hover {
+  color: #d63ed6;
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+}
+
+.icon-facebook:hover {
+  color: #3a5795;
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+}
+
+.icon-whatsapp:hover {
+  color: #3ee93e;
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+}
+
 @-webkit-keyframes from-top {
   0% {
     opacity: 0;
